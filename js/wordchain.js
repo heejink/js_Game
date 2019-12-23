@@ -4,8 +4,6 @@ var answer = document.getElementById("answer");
 var result = document.getElementById("result");
 var form = document.getElementById("wordForm");
 
-console.log(btn, word, answer);
-console.log(word.textContent[word.textContent.length - 1]);
 form.addEventListener("submit", function callbackfun(eve) {
   var inputAnswer = answer.value;
   eve.preventDefault();
